@@ -5,9 +5,9 @@ pontoX = float(input("Coordenada X(-1 a 1):"))
 pontoY = float(input("Coordenada Y(-1 a 1):"))
 
 if pontoX == 0:
-    print("As coordenadasse se encontram sobre o eixo das abscissas.")
+    print("As coordenadasse se encontram sobre o eixo das ordenadas.")
 elif pontoY == 0:
-    print("As coordenas se encontram sobre o eixo das abcissas.")
+    print("As coordenas se encontram sobre o eixo das abscissas.")
 elif pontoX == 0 and pontoY == 0:
     print("Os pontos informados estão no centro do ciclo trigonométrico.")
 elif 0 < pontoX <= 1 and 0 < pontoY <= 1:
